@@ -11,6 +11,7 @@
 		C66B1A5429E8E48600DF7179 /* ConfigHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66B1A5329E8E48600DF7179 /* ConfigHandler.swift */; };
 		C66B1A5629E8E48B00DF7179 /* ClipMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66B1A5529E8E48B00DF7179 /* ClipMenu.swift */; };
 		C66B1A5829E8E48E00DF7179 /* ClipBoardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66B1A5729E8E48E00DF7179 /* ClipBoardData.swift */; };
+		C66B1A5A29E8EB2800DF7179 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66B1A5929E8EB2800DF7179 /* Toast.swift */; };
 		C6C9653829E68BD00066F654 /* IBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9653729E68BD00066F654 /* IBoardApp.swift */; };
 		C6C9653C29E68BD10066F654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C9653B29E68BD10066F654 /* Assets.xcassets */; };
 		C6C9654029E68BD10066F654 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C9653F29E68BD10066F654 /* Preview Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		C66B1A5329E8E48600DF7179 /* ConfigHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigHandler.swift; sourceTree = "<group>"; };
 		C66B1A5529E8E48B00DF7179 /* ClipMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipMenu.swift; sourceTree = "<group>"; };
 		C66B1A5729E8E48E00DF7179 /* ClipBoardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipBoardData.swift; sourceTree = "<group>"; };
+		C66B1A5929E8EB2800DF7179 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		C6C9653429E68BD00066F654 /* IBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C9653729E68BD00066F654 /* IBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBoardApp.swift; sourceTree = "<group>"; };
 		C6C9653B29E68BD10066F654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				C6C9657029E68F1C0066F654 /* Settings.swift */,
 				C6C9657129E68F1C0066F654 /* TextBox.swift */,
 				C66B1A4F29E8D18300DF7179 /* Detail.swift */,
+				C66B1A5929E8EB2800DF7179 /* Toast.swift */,
 			);
 			name = View;
 			path = ../../../wear/practice/ClipBoardManager/ClipBoardManager/View;
@@ -294,6 +297,7 @@
 				C6C9657929E68F1C0066F654 /* Settings.swift in Sources */,
 				C66B1A5629E8E48B00DF7179 /* ClipMenu.swift in Sources */,
 				C66B1A5029E8D18300DF7179 /* Detail.swift in Sources */,
+				C66B1A5A29E8EB2800DF7179 /* Toast.swift in Sources */,
 				C6C9657A29E68F1C0066F654 /* TextBox.swift in Sources */,
 				C66B1A5829E8E48E00DF7179 /* ClipBoardData.swift in Sources */,
 				C66B1A5429E8E48600DF7179 /* ConfigHandler.swift in Sources */,
