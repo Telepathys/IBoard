@@ -21,6 +21,7 @@ class ClipBoardHandler :ObservableObject {
     private var timer :Timer!
     private var configSink :Cancellable!
     var historyCapacity :Int
+    var firstLaunch: Bool = false
     
     init(configHandler: ConfigHandler) {
         self.configHandler = configHandler
@@ -29,7 +30,7 @@ class ClipBoardHandler :ObservableObject {
         history = []
         accessLock = NSLock()
         if let historyJson = try? String(contentsOfFile: historyPath.path) {
-            loadHistoryFromJSON(JSON: historyJson)
+                loadHistoryFromJSON(JSON: historyJson)
         }
         NotificationCenter.default.addObserver(forName: NSApplication.willTerminateNotification, object: nil, queue: .main) { _ in
             let JSON = self.getHistoryAsJSON()
@@ -112,6 +113,7 @@ class ClipBoardHandler :ObservableObject {
         
     func clear() {
         history.removeAll()
+        history = []
         writeHistory()
     }
     

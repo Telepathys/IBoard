@@ -12,6 +12,7 @@ struct IBoardApp: App {
     @StateObject private var configHandler :ConfigHandler
     @StateObject private var clipBoardHandler :ClipBoardHandler
     @State private var curretnTab = 0
+    @State private var appRunning = false
     
     init() {
         let confH = ConfigHandler()
@@ -25,7 +26,7 @@ struct IBoardApp: App {
                 .environmentObject(configHandler)
                 .environmentObject(clipBoardHandler)
         }) {
-            Image(systemName: "bolt.horizontal.icloud.fill")
+            Image("icon")
         }
     }
 }
